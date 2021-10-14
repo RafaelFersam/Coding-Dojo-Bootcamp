@@ -1,2 +1,2 @@
-# Coding-Dojo-Pre-Bootcamp
-Práctica de Condicionales
+# Coding-Dojo-Bootcamp
+
