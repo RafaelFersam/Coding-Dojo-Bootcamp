@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de registro core</title>
+  </head>
+  <body>
+    <center><h1>Mi Formulario de Registro</h1></center>
+    <form>
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" />
+      </div>
+      <div>
+        <p>
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" id="apellido" />
+        </p>
+      </div>
+      <div>
+        <label for="email">Emaiil:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <p>
+          <label for="password">Contraseña:</label>
+          <input type="password" name="password" id="password" />
+        </p>
+      </div>
+      <div>
+        <p>
+          <label for="pw_confirm">Confirmar:</label>
+          <input type="password" name="confirmar" id="pw_confirm" />
+        </p>
+      </div>
+      <div>
+        <p>
+          <label for="cumpleaños">Cumpleaños:</label>
+          <input type="date" name="cumpleaños" id="cumpleaños" />
+        </p>
+      </div>
+      <label for="masculino">Masculino</label>
+      <input type="radio" id="masculino" name="genero" value="masculino" />
+      <label for="femenino">Femenino</label>
+      <input type="radio" id="femenino" name="genero" value="femenino" />
+      <label for="otro">Otro</label>
+      <input type="radio" id="otro" name="genero" value="otro" />
+      <div></div>
+      <p>Una breve descripción de ti:</p>
+      <textarea name="description" id="" cols="30" rows="10"></textarea>
+      <div></div>
+      <select name="lenguaje">Lenguaje Favorito
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+          <option value="php">PHP</option>
+      </select>
+      <div></div>
+      <p>
+      <input type="button" value="Enviar">
+    </p>
+    </form>
+  </body>
+</html>
