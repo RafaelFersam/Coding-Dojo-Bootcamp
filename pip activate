@@ -1,0 +1,28 @@
+rafae@DESKTOP-VE1DSJL MINGW64 /c/python_stack (main)
+$ source c:/python_stack/flask/flaskenv/Scripts/activate
+(flaskenv) 
+rafae@DESKTOP-VE1DSJL MINGW64 /c/python_stack (main)
+$ ls
+django/  flask/  my_enviroments/  python/
+(flaskenv) 
+rafae@DESKTOP-VE1DSJL MINGW64 /c/python_stack (main)
+$ freeze
+bash: freeze: command not found
+(flaskenv) 
+rafae@DESKTOP-VE1DSJL MINGW64 /c/python_stack (main)
+$ pip freeze
+click==8.0.3
+colorama==0.4.4
+dataclasses==0.8
+Flask==2.0.2
+importlib-metadata==4.8.2
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+typing-extensions==4.0.0
+Werkzeug==2.0.2
+zipp==3.6.0
+You are using pip version 9.0.1, however version 21.3.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(flaskenv) 
+rafae@DESKTOP-VE1DSJL MINGW64 /c/python_stack (main)
