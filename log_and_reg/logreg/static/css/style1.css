@@ -1,0 +1,14 @@
+body {
+    background-color: #52bdea;
+}
+.login {
+    display: block;
+    margin-left: 40em;
+    margin-right: -51em;
+    margin-top: -29em;
+}
+
+.container {
+    border-radius: 2em;
+    outline: solid 0.5em lightyellow;
+}
